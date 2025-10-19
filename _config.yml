@@ -1,0 +1,13 @@
+title: "AldoJara Academy"
+description: "Cursos aplicados de IA/ML, Neuromarketing y Automatización."
+theme: minima
+url: "https://aldojara.github.io"
+baseurl: "/Big-Talent-Analytica"
+markdown: kramdown
+kramdown: { input: GFM }
+permalink: /:categories/:title/
+collections:
+  cursos:
+    output: true
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
+exclude: [README.md, .github, node_modules]
