@@ -1,0 +1,10 @@
+title: "AldoJara Academy"
+description: "Ecosistema educativo en IA/ML, Automatización (n8n), Neuromarketing y Analytics."
+theme: minima
+url: "https://aldojara.github.io"
+baseurl: "/Big-Talent-Analytica"
+markdown: kramdown
+kramdown: { input: GFM }
+permalink: /:categories/:title/
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
+exclude: [node_modules]

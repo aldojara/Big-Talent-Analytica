@@ -1,0 +1,6 @@
+<article class="card">
+  <h2><a href="{{ '/cursos/' | append: include.course.slug | append: '/' | relative_url }}">
+    {{ include.course.title }}</a></h2>
+  <p>{{ include.course.summary }}</p>
+  <p><strong>Nivel:</strong> {{ include.course.level }} · <strong>Duración:</strong> {{ include.course.duration }}</p>
+</article>

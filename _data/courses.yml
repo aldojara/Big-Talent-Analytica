@@ -1,0 +1,27 @@
+- slug: "deep-learning"
+  title: "Deep Learning para Negocio"
+  level: "Intermedio"
+  duration: "8–10 h"
+  summary: "Fundamentos, arquitectura, casos sectoriales y métricas para dirección."
+  modules:
+    - title: "Fundamentos y Arquitectura"
+      lessons:
+        - { title: "Introducción y contexto", path: "/cursos/deep-learning/lecciones/01-introduccion/" }
+        - { title: "Fundamentos del DL", path: "/cursos/deep-learning/lecciones/02-fundamentos/" }
+    - title: "Aplicaciones y Casos"
+      lessons:
+        - { title: "Casos aplicados en la empresa", path: "/cursos/deep-learning/lecciones/03-casos-aplicados/" }
+
+- slug: "automatizacion-n8n"
+  title: "Automatización con n8n para Creadores"
+  level: "Inicial–Intermedio"
+  duration: "6–8 h"
+  summary: "Flujos para publicar guiones, imágenes y métricas desde Sheets/Drive."
+  modules:
+    - title: "Base de flujos y conectores"
+      lessons:
+        - { title: "Entorno y seguridad", path: "/cursos/automatizacion-n8n/lecciones/01-entorno/" }
+        - { title: "Flujo base Sheets→OpenAI→Drive", path: "/cursos/automatizacion-n8n/lecciones/02-flujo-base/" }
+    - title: "Publicación y métricas"
+      lessons:
+        - { title: "Automatizar catálogo y dashboard", path: "/cursos/automatizacion-n8n/lecciones/03-dashboard/" }
